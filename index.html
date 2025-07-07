@@ -2,46 +2,124 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Family Empire</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1c1f2e, #2d314a);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0f1121;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      color: #00c3ff;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #d1d1e0;
+      margin-top: 10px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    nav a {
+      color: #00c3ff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00c3ff;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #0a0f2c;
+      color: #999;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        padding: 10px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home / Accueil</a></li>
-        <li><a href="#vision">Vision</a></li>
-        <li><a href="#tasks">Tasks / Tâches</a></li>
-        <li><a href="https://app.clockify.me/dashboard" target="_blank">Clockify</a></li>
-        <li><a href="https://docs.google.com/spreadsheets/d/1W7k2w-azOJ4OKTu6chJ9KjBBCh3OSFsd0yjZdhSh-r4/edit?usp=sharing" target="_blank">Formation</a></li>
-      </ul>
-    </nav>
-    <div class="hero">
-      <h1>FAMILY EMPIRE</h1>
-      <p>Silent Growth. Strong Future. / Croissance silencieuse. Avenir fort.</p>
-    </div>
+    <h1>FAMILY EMPIRE</h1>
+    <p>Silent Growth. Strong Future. / Croissance silencieuse. Avenir fort.</p>
   </header>
 
-  <main>
-    <section id="vision">
-      <h2>Our Vision / Notre Vision</h2>
-      <p>We are building a silent system of legacy, wealth, and leadership inside our bloodline. / Nous construisons un système silencieux d'héritage, de richesse et de leadership dans notre lignée.</p>
-    </section>
+  <nav>
+    <a href="#">Home / Accueil</a>
+    <a href="#">Vision</a>
+    <a href="#">Tasks / Tâches</a>
+    <a href="#">Clockify</a>
+    <a href="#">Formation</a>
+  </nav>
 
-    <section id="tasks">
-      <h2>Current Tasks / Tâches en cours</h2>
-      <ul>
-        <li>Website upgrades</li>
-        <li>Training session reviews</li>
-        <li>Leadership development</li>
-        <li>Tracking daily progress</li>
-      </ul>
-    </section>
-  </main>
+  <section>
+    <h2>Our Vision / Notre Vision</h2>
+    <p>We are building a silent system of legacy, wealth, and leadership inside our bloodline. / Nous construisons un système silencieux de richesse et de leadership dans notre lignée.</p>
+  </section>
+
+  <section>
+    <h2>Current Tasks / Tâches en cours</h2>
+    <ul>
+      <li>Website upgrades</li>
+      <li>Training session reviews</li>
+      <li>Leadership development</li>
+      <li>Tracking daily progress</li>
+    </ul>
+  </section>
 
   <footer>
-    <p>© 2025 Family Empire. All rights reserved.</p>
+    © 2025 Family Empire. All rights reserved.
   </footer>
+
 </body>
 </html>
